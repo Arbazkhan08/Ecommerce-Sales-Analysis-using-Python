@@ -1,0 +1,59 @@
+Insights:
+
+1. Missing Data Handling:
+
+The dataset had missing values in the "Product Base Margin" column, which was successfully imputed with the mean value for a consistent dataset.
+
+2. Order Priority Distribution:
+
+The "Order Priority" column shows the following distribution:
+High: 1970 orders
+Low: 1926 orders
+Not Specified: 1881 orders
+Medium: 1844 orders
+Critical: 1805 orders
+A slight discrepancy in the "Critical" order priority was resolved by standardizing duplicate entries (e.g., "Critical " to "Critical").
+
+3. Ship Mode Analysis:
+
+The most common shipping mode is Regular Air, accounting for 7036 orders (75% of the total orders).
+Delivery Truck follows with 1283 orders (14% of the total orders).
+Express Air is the least used with 1107 orders (11% of total orders).
+A pie chart visualizes the distribution of shipping modes.
+
+4. Orders by Product Category:
+
+Office Supplies is the most ordered product category, with 5181 orders.
+The distribution of orders by ship mode for different product categories shows varying preferences for shipping methods based on the type of product ordered.
+
+5. Product Sub-Category Insights:
+
+Specific product sub-categories such as Binders and Paper dominate in the office supplies category.
+Technology-related products are also significant, with varying shipping preferences based on urgency.
+
+6. Profit and Sales Analysis:
+
+The Profit and Sales columns show a wide range of values with the highest profit recorded at 16332.41 and the highest sales at 100119.16.
+Negative profit values indicate possible loss-making orders that could be further investigated for improvements.
+
+7. Quantity Ordered:
+
+The average quantity ordered is around 13.8 units, with some orders reaching up to 170 units.
+
+8. Shipping Cost vs. Sales:
+
+A noticeable trend shows that higher shipping costs correlate with higher sales, suggesting that more expensive shipping options are chosen for higher-value orders.
+
+9. Geographic Insights:
+
+The dataset covers multiple regions and states, with Central and West regions having a high number of orders. Specific cities and postal codes show higher concentrations of orders.
+
+10. Time-Based Insights:
+
+The order dates range from 2010 to 2014, with peak sales occurring in the years 2011 to 2013, suggesting certain seasonal trends.
+
+11. Actionable Insights:
+
+The company could optimize shipping strategies, considering that most orders use "Regular Air" as the shipping method.
+Further analysis could focus on Critical orders to identify any bottlenecks or delays in processing.
+Investigate orders with negative profits to identify root causes and improve profitability.
